@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
         <a href="https://t.me/s/FigmaToHTML" target="_blank">
@@ -25,7 +26,382 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        
+        <section class="intro">
+            <div class="intro__container">
+                <h1 class="title">
+                    More focus.
+                    Fewer off days.
+                </h1>
+                <p class="text">
+                    A simple daily habit for staying focused without a crash.
+                </p>
+                <div class="buttons">
+                    <button class="button trial">Try 7 Days for $7</button>
+                    <button class="button shop">Shop Now</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="reason">
+            <p class="sentence">
+                Busy people love Plato for more energy, better focus, and a feeling of calm
+            </p>
+        </div>
+
+        <div class="customers" id="customers">
+            <div class="customer daniela">
+                <img src="./img/customer_photo-daniela.png" alt="customer's photo" class="photo">
+                <p class="review">
+                    "Taking Plato every morning gave me an awesome boost of energy for the day. I noticed I was getting less tired, less stressed, and was able to manage more. This nootropic is hands down awesome. I highly recommend it to anyone looking for more energy, mental clarity, better focus, and more zen."
+                </p>
+                <div class="customer-info">
+                    <p class="name">Daniela S.</p>
+                    <p class="status">Verified Customer</p>
+                </div>
+            </div>
+
+            <div class="customer dan">
+                <img src="./img/customer_photo-dan.png" alt="customer's photo" class="photo">
+                <p class="review">
+                    "After a week of Plato, my mood has stabilized and I can think more clearly. I’m working long hours without relying on stimulants, which makes for a smoother transition into the evening.”
+                </p>
+                <div class="customer-info">
+                    <p class="name">Dan R.</p>
+                    <p class="status">Verified Customer</p>
+                </div>
+            </div>
+
+            <div class="customer brittney">
+                <img src="./img/customer_photo-brittney.png" alt="customer's photo" class="photo">
+                <p class="review">
+                    "I felt an increase in focus and energy levels while I worked long strenuous hours. I also love how it doesn’t upset my stomach or make me feel any side effects."
+                </p>
+                <div class="customer-info">
+                    <p class="name">Brittney C.</p>
+                    <p class="status">Verified Customer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="focus">
+            <h2 class="title">
+                Inability to focus can ripple into many areas of life, creating a vicious cycle
+            </h2>
+            <img src="./img/focus_cycle.png" alt="img" class="cycle">
+            <p class="sentence advert">
+                Plato is a natural, safe, daily habit to help you get out of this cycle.
+            </p>
+        </div>
+
+        <section class="ingredients">
+            <div class="title-block">
+                <h2 class="ingredients__title">Making it harder to get off task</h2>
+                <h3 class="ingredients__subtitle">
+                    Four safe ingredients to target focus, fatigue, and energy drain
+                </h3>
+            </div>
+            <div class="cards">
+                <div class="card l-theanin">
+                    <img src="./img/ingredient_photo-l-theanin.png" alt="photo" class="photo">
+                    <div class="description">
+                        <p class="name">L-Theanine, 200 mg</p>
+                        <p class="phrase">the thing in green tea that you love</p>
+                        <p class="action">
+                            Reduces temporary anxiety induced by stressful situations.
+                        </p>
+                    </div>
+                </div>
+                <div class="card baccopa">
+                    <div class="description">
+                        <p class="name">Bacopa Monnieri, 300 mg</p>
+                        <p class="phrase">a student’s secret weapon</p>
+                        <p class="action">
+                            Improves attention, enhances focus, supports a positive mood.
+                        </p>
+                    </div>
+                    <img src="./img/ingredient_photo-baccopa.png" alt="photo" class="photo">
+                </div>
+                <div class="card rhodiola">
+                    <img src="./img/ingredient_photo-rhodiola.png" alt="photo" class="photo">
+                    <div class="description">
+                        <p class="name">Rhodiola Rosea, 100 mg</p>
+                        <p class="phrase">the no worries root</p>
+                        <p class="action">
+                            May help reduce cortisol response to stress, support a positive mood, and support concentration.
+                        </p>
+                    </div>
+                </div>
+                <div class="card panax">
+                    <div class="description">
+                        <p class="name">Panax Ginseng, 60 mg</p>
+                        <p class="phrase">helps you stay in a productive flow</p>
+                        <p class="action">
+                            Supports cognitive performance, improves working memory, reduces the perception of mental fatigue.
+                        </p>
+                    </div>
+                    <img src="./img/ingredient_photo-panax.png" alt="photo" class="photo">
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="button button-reason">Why These Ingredients →</button>
+                <button class="button button-facts">See Supplement Facts Label →</button>
+            </div>
+        </section>
+
+        <div class="capsules">
+            <h2 class="title">
+                Two Capsules Daily:<br>
+                Smart self care to reduce the symptoms of stress and help you focus
+            </h2>
+            <div class="description description-capsules">
+                <p class="description description-paragrpaph1">
+                    Your happiness (and ability to focus) are impacted by the amount of stress you experience. In the same way, negative feelings can contribute to physical and chemical stress in the body and brain.
+                </p>
+                <p class="description description-paragrpaph2">
+                    If you don’t have infinite control over your circumstances -- and who does? -- you can end up feeling<br>trapped.
+                </p>
+                <p class="description description-paragrpaph3">
+                    It can feel like you can never get ahead, and never get out from under your stress.
+                </p>
+                <p class="description description-paragrpaph4">
+                    Plato is a simple, daily ritual to help interrupt that cycle.
+                </p>
+            </div>
+            <button class="button button-learn-more">Learn More →</button>
+        </div>
+
+        <section class="first-step">
+            <div class="info">
+                <h2 class="title title-first-step">2 capsules of Plato</h2>
+                <div class="description">
+                    <p class="paragrpaph paragrpaph1-first-step">
+                        Not only does Plato help you adapt to stressful situations, it can help give you the energy and focus to make other positive changes in your life, beginning an upward cycle of change.
+                    </p>
+                    <p class="paragrpaph paragrpaph2-first-step">
+                        Make the first move towards a new base level of calm with Plato.
+                    </p>
+                </div>
+                <button class="button button-first-step">Take the First Step →</button>
+            </div>
+        </section>
+
+        <section class="solution">
+            <h2 class="title solution">
+                You could spend thousands of hours researching the perfect safe solution, but we already did
+            </h2>
+            <div class="figures">
+                <p class="number">3</p>
+                <img src="./img/solution_divider.png" alt="icon" class="divider">
+                <p class="number">30</p>
+                <img src="./img/solution_divider.png" alt="icon" class="divider">
+                <p class="number">4</p>
+                <img src="./img/solution_divider.png" alt="icon" class="divider">
+                <p class="number number-18">18</p>
+            </div>
+        </section>
+
+        <section class="research">
+            <h2 class="title">No, it’s not like the pill from Limitless</h2>
+            <div class="description1">
+                <p class="paragrpaph1">
+                    Any time you use a supplement, you might wonder if it’s safe.
+                </p>
+                <p class="paragrpaph2">
+                    ‘Am I putting the right things in my body?’
+                </p>
+                <p class="paragrpaph3">
+                    That’s why Plato uses the most conservative ingredients possible to get the results that you want.
+                </p>
+            </div>
+            <p class="explanation">
+                Noticeably improve your attention, enhance your focus, and support your concentration without the question marks surrounding sourcing or safety.
+            </p>
+            <div class="description2">
+                <p class="paragrpaph1">
+                    Plato is effective, but there’s nothing about it that’s too good to be true — just a methodically-researched blend of timeless ingredients.
+                </p>
+                <p class="paragrpaph2">
+                    Plato works, and there’s research to prove it.
+                </p>
+            </div>
+            <button class="button-research">See the Research →</button>
+        </section>
+
+        <section class="perspective">
+            <h2 class="title">Get off the couch and _______</h2>
+            <div class="description">
+                <p class="paragraph paragraph1-perspective">
+                    Plato supports steady energy and focus, so you can get the things on your list done. No stimulants means that you won’t have the same crash that you would from caffeine.
+                </p>
+                <p class="paragraph paragraph2-perspective">
+                    Whether it’s finishing up your work for the day and going on a run, or<br>hanging out with friends after what normally would be a draining day.
+                </p>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <h2 class="title">
+                Costs less than a cup of coffee, with short-and-long term cognitive benefits
+            </h2>
+            <div class="description">
+                <p class="paragraph paragraph1-benefits">
+                    Plato costs less than a cup of coffee, but can give you short-term and long-term brain benefits.
+                </p>
+                <p class="paragraph paragraph2-benefits">
+                    When taking Plato consistently, many people notice increased focus, energy, and relaxation within the first few servings. And it only gets better with time, which is why we recommend that you use Plato every day.
+                </p>
+                <p class="paragraph paragraph3-benefits">
+                    Plato is well-tolerated, non-toxic, non-habit-forming and does not need to be cycled.
+                </p>
+                <p class="paragraph paragraph4-benefits">
+                    It’s one of the safest, easiest additions to your routine that you can invest in, and can help you get to a baseline of calm and clarity so you can tackle life head on.
+                </p>
+            </div>
+            <button class="benefits__btn">Get Plato Now →</button>
+        </section>
+
+        <section class="promo">
+            <h2 class="title">7 Days for $7</h2>
+            <h3 class="subtitle">First Time Purchase Offer</h3>
+            <div class="promo-info">
+                <img src="./img/promo-photo.png" alt="photo" class="promo-photo">
+                <div class="promo-description">
+                    <div class="description-container">
+                        <p class="promo-paragrpaph1">
+                            We’re so confident you’ll love Plato that we’re willing to give it to you for next to nothing so that you can find out if it’s right for you.
+                        </p>
+                        <p class="promo-paragrpaph2">
+                            No hidden extra fees, commitment or costs. Shipping is on us!
+                        </p>
+                        <p class="promo-paragrpaph3">
+                            Once you feel the difference for yourself, then you can invest in a full month’s supply.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <p class="heading">Send My Sample Pack:</p>
+                        <button class="button-cart">Add to Cart | $7</button>
+                        <button class="button-shop">Shop All Options →</button>
+                    </div>
+                    <div class="shipping">
+                        <img src="./img/shipping-icon.svg" alt="icon" class="icon">
+                        <p class="text">Free shipping on every order (even when it’s only $7)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="faq" id="faq">
+            <div class="subject subject1">
+                <p class="question1">
+                    Q: When will I feel results?
+                </p>
+                    <p class="answer-paragraph1">
+                        A: Most people can tell if Plato is right for them with their first few servings.
+                    </p>
+                    <p class="answer-paragraph2">
+                        That’s why we’re happy to send you a sample so you can feel the Plato effect instead of us just telling you about it.
+                    </p>
+            </div>
+            <div class="subject subject2">
+                <p class="question2">
+                    Q: You make some big claims. How can I believe it?
+                </p>
+                    <p class="answer-paragraph3">
+                        A: We’re glad you asked!
+                    </p>
+                    <p class="answer-paragraph4">
+                        We spent years on research and hundreds of hours iterating to create a product that is safe and evidence-based.
+                    </p>
+                    <p class="answer-paragraph answer-paragraph5">
+                        Every claim we make is based on studies. Every ingredient we use is selected because each meets our meticulous standards for safety and consistency (meaning we know exactly what is in each capsule).
+                    </p>
+                    <p class="answer-paragraph answer-paragraph6">
+                        You can do your own research by clicking through here to see the studies Plato is based on.
+                    </p>
+                    <p class="answer-paragraph answer-paragraph7">
+                        But of course, the best way to find out is to experience Plato for yourself.
+                    </p>
+            </div>
+        </div>
+
+        <section class="contact" id="contact">
+            <div class="contact__container">
+                <div class="contact__info">
+                    <h2 class="contact__title">
+                        Our door is always open. Love your sample? Have questions? There’s a real person to hear what you think on the other side →
+                    </h2>
+                    <p class="contact__text">
+                        Hit us up day or night. We want to hear what you think -- questions and all.
+                    </p>
+                </div>
+                <button class="contact__button">
+                    <img src="./img/btn-icon.svg" alt="icon" class="contact__button-icon">
+                </button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__header">
+                <img src="./img/footer_logo.svg" alt="icon" class="logo">
+                <nav class="navbar">
+                    <a href="#" class="link">Product</a>
+                    <a href="#" class="link">Learn</a>
+                </nav>
+                <button class="footer__button footer__button-shop">Shop</button>
+                <div class="personal">
+                    <a href="#" class="link link-account">My Account</a>
+                    <a href="#" class="link link-cart">My Cart</a>
+                </div>
+            </div>
+            <div class="footer__container">
+                <div class="newsletter">
+                    <div class="heading">Newsletter</div>
+                    <form>
+                        <input type="email" class="input__email" />
+                        <input type="checkbox" class="input__checkbox" />
+                    </form>
+                    <span>
+                        By subscribing you agree to our Privacy Policy. You may unsubscribe at any time.
+                    </span>
+                </div>
+                <div class="navigation">
+                    <button class="shop-btn">Shop</button>
+                    <div class="links">
+                        <a href="#" class="link">Blog</a>
+                        <a href="#" class="link">Press</a>
+                        <a href="#contact" class="link">Contact</a>
+                        <a href="#" class="link">My Account</a>
+                        <a href="#customers" class="link">Reviews</a>
+                        <a href="#faq" class="link">FAQ</a>
+                        <a href="#" class="link">Shipping & Returns</a>
+                        <a href="#" class="link">Partner Program</a>
+                        <a href="#" class="link">Wholesale Inquires</a>
+                        <a href="#" class="link">Batch Lookup</a>
+                        <div class="bottomline-links">
+                            <a href="#" class="link">Privacy Policy</a>
+                            <a href="#" class="link">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="socials">
+                    <a href="https://www.instagram.com" class="social-link" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com" class="social-link" target="_blank">Facebook</a>
+                    <a href="https://www.twitter.com" class="social-link" target="_blank">Twitter</a>
+                </div>
+                <div class="copyright">
+                    <p class="copyright-text">
+                        © 2021, <span><a href="https://www.goplato.com" class="homepage" target="_blank">goplato.com</a></span>
+                        <br>Design:Sofia Code:No Matter
+                    </p>
+                </div>
+            </div>
+            <div class="footer__bottomline">
+                <button class="got-btn">Got it!</button>
+                <a href="#" class="learn-more-link">Learn More</a>
+            </div>
+        </footer>
+
     </div>
 
 </body>
