@@ -855,13 +855,13 @@ body{
     width: 91px;
     height: 51px;
     background: #B9E2BF;
-    border: 2px solid #3A173C;
+    /* border: 2px solid #3A173C; */
     border-radius: 32px;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: #3A173C;
-    margin-right: 306px;
+    margin-right: 266px;
     transition: transform .3s cubic-bezier(.2,.85,.4,1.275);
 }
 .footer__button:active {
@@ -871,7 +871,7 @@ body{
     display: flex;
     place-items: center;
     gap: 53px;
-    width: 210px;
+    width: 243px;
 }
 .footer__container {
     display: flex;
