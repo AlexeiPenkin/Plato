@@ -861,7 +861,7 @@ body{
     line-height: 26px;
     text-align: center;
     color: #3A173C;
-    margin-right: 316px;
+    margin-right: 306px;
     transition: transform .3s cubic-bezier(.2,.85,.4,1.275);
 }
 .footer__button:active {
@@ -871,7 +871,7 @@ body{
     display: flex;
     place-items: center;
     gap: 53px;
-    width: 200px;
+    width: 210px;
 }
 .footer__container {
     display: flex;
@@ -897,8 +897,8 @@ form {
     padding: 0;
     margin: 0;
     position: relative;
-  }
-  .input__email {
+}
+.input__email {
     width: 307px;
     padding: 15px 45px 15px 15px;
     font-family: "Roboto";
@@ -906,8 +906,8 @@ form {
     outline: none;
     border-bottom: 1px solid #3A173C;
     margin-bottom: 16px;
-  }
-  .input__checkbox {
+}
+.input__checkbox {
     position: absolute;
     border: none;
     top: 10px;
@@ -917,7 +917,7 @@ form {
     height: 30px;
     font-size: 13px;
     cursor: pointer;
-  }
+}
 .newsletter span {
     width: 222px;
     height: 38px;
